@@ -1,109 +1,106 @@
-# 🏢 Enterprise Computer Vision Solutions: Applied AI Architecture & Master Capabilities
+# Applied Computer Vision Portfolio
 
-[![Computer Vision](https://img.shields.io/badge/Domain-Computer%20Vision-blue)](https://github.com/mh-masum6875)
-[![AI Engineering](https://img.shields.io/badge/Engineer-Maidul%20Hasan%20Masum-brightgreen)](https://github.com/mh-masum6875)
-[![Production Analytics](https://img.shields.io/badge/Production%20Analytics-80%2B%20Developed-orange)](https://github.com/mh-masum6875)
+[![Domain](https://img.shields.io/badge/Domain-Computer%20Vision-0f766e)](https://mh-masum6875.github.io)
+[![Analytics](https://img.shields.io/badge/Analytics%20built-80%2B-orange)](#what-i-have-built)
+[![Author](https://img.shields.io/badge/Author-Maidul%20Hasan%20Masum-blue)](https://github.com/mh-masum6875)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-An enterprise portfolio showcasing **80+ production computer vision analytics**, multi-modal architectures, and commercial deployment frameworks spanning Industrial HSE, Smart Cities, Retail Loss Prevention, Food Safety, Healthcare, Intelligent Transportation, and Subsea Marine Analytics.
+I build computer vision analytics: systems that watch video and turn it into counts, alerts and reports. This repository is the guide to my work across seven areas. Each area has its own repository with example code and an explanation of the approach.
+
+Everything here describes ideas and methods. The code in these repositories is my own implementation.
 
 ---
 
-## 🏛️ End-to-End Enterprise Vision Architecture
+## How a typical analytic works
 
 ```mermaid
 graph TD
-    Feeds["Multi-Source Video Ingestion<br/>(RTSP / ONVIF / PTZ / Bodycam / Drone / Underwater AUV)"] --> Pipeline["Edge Inference & Stream Orchestrator"]
-    
-    Pipeline --> R1["1. Workplace Safety & HSE<br/>(PPE, Height, Forklift, Threat)"]
-    Pipeline --> R2["2. Intelligent Transportation<br/>(Traffic Flow, Directional Logic, Speed)"]
-    Pipeline --> R3["3. Maritime & Subsea AI<br/>(Vessel OCR, 91K+ Reef Survey, Wildfire)"]
-    Pipeline --> R4["4. Smart Retail & Loss Prevention<br/>(Shopformer ViT, Self-Checkout, Theft)"]
-    Pipeline --> R5["5. Food Hygiene Compliance<br/>(Hairnet, 20s Handwash, Food Exposure)"]
-    Pipeline --> R6["6. Healthcare & Ergonomics<br/>(In-Bed Restlessness, Bed-Fall, Posture)"]
-    Pipeline --> R7["7. Smart City & Sanitation<br/>(Waste Tonnage, Spitting, Cleanliness)"]
-    
-    R1 --> AlertHub["Enterprise VMS Overlay, Webhook Triggers & KPI Dashboard"]
-    R2 --> AlertHub
-    R3 --> AlertHub
-    R4 --> AlertHub
-    R5 --> AlertHub
-    R6 --> AlertHub
-    R7 --> AlertHub
+    Feeds["Video sources<br/>(IP cameras, PTZ, drones, underwater cameras)"] --> Pipeline["Detection and tracking<br/>(GPU or edge inference)"]
+
+    Pipeline --> R1["Workplace safety<br/>(PPE, working at height, forklifts, threats)"]
+    Pipeline --> R2["Traffic<br/>(lane counting, direction, speed)"]
+    Pipeline --> R3["Maritime and subsea<br/>(vessel OCR, reef survey, smoke and fire)"]
+    Pipeline --> R4["Retail<br/>(self-checkout, theft behaviour)"]
+    Pipeline --> R5["Food hygiene<br/>(hairnets, handwashing, food exposure)"]
+    Pipeline --> R6["Healthcare<br/>(in-bed restlessness, bed exits, posture)"]
+    Pipeline --> R7["Sanitation<br/>(waste sorting, littering, cleanliness)"]
+
+    R1 --> Output["Alerts, counts and reports"]
+    R2 --> Output
+    R3 --> Output
+    R4 --> Output
+    R5 --> Output
+    R6 --> Output
+    R7 --> Output
 ```
 
 ---
 
-## 📂 Core Specialized Repositories
+## Repositories
 
-| Repository | Domain | Core Models & Technologies |
+| Repository | What it covers | Main techniques |
 | :--- | :--- | :--- |
-| **[workplace-safety-vision](https://github.com/mh-masum6875/workplace-safety-vision)** | Industrial HSE, PPE Compliance & Physical Security | ONNX Runtime GPU, YOLOv8/v7, Spatial IoU, SORT |
-| **[traffic-flow-analytics](https://github.com/mh-masum6875/traffic-flow-analytics)** | Multi-Lane Junction Counting & Directional Flow State Machine | YOLOv8/v11, DeepSORT, OpenPyXL, Dynamic Thresholds |
-| **[maritime-subsea-vision](https://github.com/mh-masum6875/maritime-subsea-vision)** | Maritime Surveillance, Carrier OCR & Subsea Ecological Census | PyTorch, YOLOE, EasyOCR, CLAHE, CUDA 12.1 |
-| **[retail-loss-prevention-vision](https://github.com/mh-masum6875/retail-loss-prevention-vision)** | Retail Loss Prevention, Self-Checkout Scanning & Action Recognition | Vision Transformer (ViT), Shopformer, Faster R-CNN, YOLO-Pose |
-| **[food-hygiene-vision](https://github.com/mh-masum6875/food-hygiene-vision)** | Commercial Kitchen HACCP Compliance & Hygiene Auditing | Custom Hairnet Net, Time-decay Tracking, Open-Vocabulary YOLOE |
-| **[patient-monitoring-vision](https://github.com/mh-masum6875/patient-monitoring-vision)** | Non-Invasive Clinical In-Bed Care & Workplace Posture | Centroid Displacement Kinetics, BBox Aspect Ratio Inversion |
-| **[waste-cleanliness-vision](https://github.com/mh-masum6875/waste-cleanliness-vision)** | Smart Sanitation, Conveyor Waste Tonnage & Public Cleanliness | Background Subtraction, Volume-to-Mass Scaling, Hand-Face Vectors |
+| [workplace-safety-vision](https://github.com/mh-masum6875/workplace-safety-vision) | PPE compliance, fall detection, loitering, crowd density and threat detection | ONNX Runtime GPU, YOLOv8, spatial overlap logic, SORT tracking |
+| [traffic-flow-analytics](https://github.com/mh-masum6875/traffic-flow-analytics) | Multi-lane vehicle counting and directional flow | YOLOv8 and YOLO11, DeepSORT, Excel reporting, lighting adaptation |
+| [maritime-subsea-vision](https://github.com/mh-masum6875/maritime-subsea-vision) | Vessel identification and hull number OCR, subsea ecological survey, smoke and fire monitoring | PyTorch, YOLOE, EasyOCR, CLAHE |
+| [retail-loss-prevention-vision](https://github.com/mh-masum6875/retail-loss-prevention-vision) | Self-checkout checks, shoplifting behaviour, unauthorised photography | Pose estimation, hand and object interaction, transformer-based action modelling |
+| [food-hygiene-vision](https://github.com/mh-masum6875/food-hygiene-vision) | Hairnet and headwear checks, handwashing timing, uncovered food | Open-vocabulary YOLOE, time-based tracking |
+| [patient-monitoring-vision](https://github.com/mh-masum6875/patient-monitoring-vision) | In-bed restlessness, bed-exit falls, sitting posture | Motion and bounding-box geometry |
+| [waste-cleanliness-vision](https://github.com/mh-masum6875/waste-cleanliness-vision) | Waste sorting and weight estimation, littering, spitting, surface cleanliness | Background subtraction, volume-to-weight scaling, hand and face geometry |
 
 ---
 
-## 📊 Master Production Analytics & Capabilities Matrix (80+ Systems)
+## What I have built
 
-### 1. Industrial Health, Safety & Environment (HSE)
-- **PPE & Worker Compliance**: Hardhat & Helmet attribution, Cap detection, Face mask monitoring, ID badge & lanyard verification, High-vis uniform compliance, Worker availability & station presence.
-- **Machinery & Danger Zones**: Working at heights (ladder/harness validation), Crane operational zone breaches, Forklift-pedestrian proximity alerts, Worker fatigue & drowsiness timeout.
-- **Physical Security & Threat Interception**: Perimeter intrusion & wall climbing, Camera tampering (spray, cover, blind), High-velocity projectile & debris motion tracking, Crowd unrest & physical altercation detection, Critical medical emergencies & patient distress alerting.
-- **Crowd & Access Dynamics**: Bi-directional gate line counting, Crowd congestion heatmaps, Emergency exit & gate obstruction alerts.
+More than 80 analytics so far, grouped by area.
 
-### 2. Intelligent Transportation Systems (ITS)
-- **Flow & Violation**: Multi-lane directional state machine (AB, BA, CA, CD, DB, DC), One-way wrong-way transit detection, Perspective-calibrated velocity calculation, Inter-vehicle tailgating distance, Logistics loading dock turnaround duration, Motorcycle & bicycle theft detection.
+### 1. Workplace safety
+- **PPE and worker compliance:** helmets, caps, face masks, ID cards, uniforms and worker presence at a station.
+- **Machinery and danger zones:** working at height, people inside a crane's working area, people too close to forklifts, and driver fatigue.
+- **Security:** perimeter intrusion, wall climbing, camera tampering, object throwing, and fights or crowd unrest.
+- **Crowd and access:** line-crossing counts, congestion heatmaps, and blocked gates or exits.
 
-### 3. Smart Retail & Loss Prevention
-- **Self-Checkout Verification**: Multi-model fusion (YOLOE + Faster R-CNN hand-object interaction) catching items moved to bagging zones without entering scanning sequences ($0.3\\text{s}$ line threshold).
-- **Temporal Action Recognition (`Shopformer`)**: Vision Transformer (ViT) with GCAE tokenization tracking shelf reach $\rightarrow$ object grab $\rightarrow$ pocket concealment.
-- **Security & Privacy**: Unauthorized smartphone photography detection (50°–150° phone orientation angle), Purse snatching, Customer group footfall attribution.
+### 2. Traffic
+- Multi-lane directional counting, wrong-way detection, speed estimation, following distance, truck loading and unloading time, and vehicle theft.
 
-### 4. Food Safety & Kitchen Hygiene (HACCP)
-- **Headwear Compliance**: Hairnet and kitchen headwear verification with upper-torso spatial containment.
-- **Hand Hygiene Protocol**: Basin zone tracking enforcing the mandatory 20-second handwashing duration.
-- **Food Exposure Monitoring**: Time-decay detection of uncovered food items left on counters (>30s alert).
-- **Facility Sanitation**: Multi-prompt cleaning tool (broom, mop, scrub) floor interaction detection, Poultry processing conveyor counting.
+### 3. Retail
+- **Self-checkout:** flags items that reach the bagging area without being scanned.
+- **Theft behaviour:** recognises the sequence of reaching for a shelf, taking an item and concealing it.
+- **Privacy:** spots unauthorised photography with phones and tracks group footfall.
 
-### 5. Healthcare & Patient Care
-- **In-Bed Restlessness & Agitation**: Centroid displacement tracking distinguishing active agitation from peaceful sleep.
-- **Bed-Exit Fall Prevention**: Aspect-ratio collapse ($\\frac{W}{H} > 1.5$) detecting unassisted bed exit and falls.
-- **Ergonomics**: Office desk sitting posture monitoring and slouching alerts.
+### 4. Food hygiene
+- Hairnet and headwear checks, handwashing duration at the basin, uncovered food left out, cleaning activity on floors, and conveyor counting in food processing.
 
-### 6. Smart City Sanitation & Cleanliness
-- **Recycling & Waste Sorting**: Multi-class conveyor waste sorting with geometric volume-to-mass approximation.
-- **Public Sanitation**: Spitting (Pan/Ghutka) detection on public transit walls, Street littering detection, Surface dust accumulation auditing.
+### 5. Healthcare
+- In-bed restlessness, bed exits and falls, and desk posture.
 
-### 7. Maritime & Subsea Ecological Intelligence
-- **Vessel Awareness & Carrier OCR**: 8-class vessel identification, container shipping line registry recognition (Evergreen, Maersk, COSCO, Hapag-Lloyd, etc.).
-- **Subsea Ecological Census**: Validated on **91,120 logged detections** quantifying marine fauna, aquatic flora, coral reefs, and ocean debris.
-- **Wildfire & Smoke Surveillance**: Continuous PTZ stream inference ($\ge 80\%$ TPR) with optical glare filtering.
+### 6. Sanitation and cleanliness
+- Waste sorting with weight estimation, public littering and spitting, and surface dust.
+
+### 7. Maritime and subsea
+- Vessel type recognition and hull number OCR, subsea surveys of fish, plants, coral and debris (one example run logged 91,120 detections), and smoke and fire monitoring on PTZ streams.
 
 ---
 
-## 🚀 Commercial Pilot Implementation Framework
+## How I approach a new analytic
 
-Our standardized 6-week commercial pilot deployment roadmap:
-
-| Phase | Duration | Scope & Milestones | Deliverables |
-| :--- | :--- | :--- | :--- |
-| **Week 1** | Requirement & Feed Ingestion | Site audit, camera field-of-view calibration, RTSP ingestion setup | Camera calibration spec & sample ingestion |
-| **Week 2** | Data Annotation & Baseline | Domain-specific annotation, baseline fine-tuning | Annotated dataset & model baseline report |
-| **Week 3-4**| Model Optimization & Edge Pipeline | ONNX conversion, spatial IoU attribution, false-positive tuning | Optimized edge pipeline ($<20\\text{ms}$ latency) |
-| **Week 5** | Dashboard & Alert Integration | Webhook triggers, live compliance HUD, interval logging | Integrated VMS overlay & alert notifications |
-| **Week 6** | Audit, Validation & Handover | Accuracy benchmark verification, operator training, handover | Final validation report & documentation |
+1. **Understand the scene.** What event matters, and what counts as a false alarm?
+2. **Calibrate.** Camera angle, zones of interest and real-world scale.
+3. **Collect and label.** Choose between an open-vocabulary model and a trained detector.
+4. **Tune and optimise.** Thresholds, confirmation over several frames, and speed (ONNX, TensorRT).
+5. **Connect.** Alerts, counts, dashboards and reports.
+6. **Validate and hand over.** Check results on real footage and write down the limits.
 
 ---
 
-## 📬 Contact & Collaboration
-For inquiries regarding enterprise deployments, pilot implementations, or custom computer vision architectures:
-- **GitHub**: [@mh-masum6875](https://github.com/mh-masum6875)
+## Get in touch
 
----
-## 📄 License
-This project is licensed under the MIT License.
+I'm open to roles, collaborations and pilot projects in computer vision.
+
+- Website: [mh-masum6875.github.io](https://mh-masum6875.github.io)
+- LinkedIn: [linkedin.com/in/mhmasum6875](https://www.linkedin.com/in/mhmasum6875)
+- Email: [mhmasum6875@gmail.com](mailto:mhmasum6875@gmail.com)
+
+## License
+
+MIT License.
