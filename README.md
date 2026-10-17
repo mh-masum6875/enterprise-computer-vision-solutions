@@ -53,7 +53,7 @@ graph TD
 ### 1. Industrial Health, Safety & Environment (HSE)
 - **PPE & Worker Compliance**: Hardhat & Helmet attribution, Cap detection, Face mask monitoring, ID badge & lanyard verification, High-vis uniform compliance, Worker availability & station presence.
 - **Machinery & Danger Zones**: Working at heights (ladder/harness validation), Crane operational zone breaches, Forklift-pedestrian proximity alerts, Worker fatigue & drowsiness timeout.
-- **Physical Security & Threat Interception**: Perimeter intrusion & wall climbing, Camera tampering (spray, cover, blind), Projectile & stone throwing, Violence & physical altercations, Self-harm & hanging anomaly alerting.
+- **Physical Security & Threat Interception**: Perimeter intrusion & wall climbing, Camera tampering (spray, cover, blind), High-velocity projectile & debris motion tracking, Crowd unrest & physical altercation detection, Critical medical emergencies & patient distress alerting.
 - **Crowd & Access Dynamics**: Bi-directional gate line counting, Crowd congestion heatmaps, Emergency exit & gate obstruction alerts.
 
 ### 2. Intelligent Transportation Systems (ITS)
