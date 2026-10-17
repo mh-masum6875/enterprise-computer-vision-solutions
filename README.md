@@ -38,13 +38,13 @@ graph TD
 
 | Repository | Domain | Core Models & Technologies |
 | :--- | :--- | :--- |
-| **[workplace-safety-edge-vision](https://github.com/mh-masum6875/workplace-safety-edge-vision)** | Industrial HSE, PPE Compliance & Physical Security | ONNX Runtime GPU, YOLOv8/v7, Spatial IoU, SORT |
-| **[intelligent-traffic-flow-analytics](https://github.com/mh-masum6875/intelligent-traffic-flow-analytics)** | Multi-Lane Junction Counting & Directional Flow State Machine | YOLOv8/v11, DeepSORT, OpenPyXL, Dynamic Thresholds |
-| **[maritime-underwater-vision-ai](https://github.com/mh-masum6875/maritime-underwater-vision-ai)** | Maritime Surveillance, Carrier OCR & Subsea Ecological Census | PyTorch, YOLOE, EasyOCR, CLAHE, CUDA 12.1 |
-| **[smart-retail-loss-prevention-ai](https://github.com/mh-masum6875/smart-retail-loss-prevention-ai)** | Retail Loss Prevention, Self-Checkout Scanning & Action Recognition | Vision Transformer (ViT), Shopformer, Faster R-CNN, YOLO-Pose |
-| **[food-hygiene-compliance-vision-ai](https://github.com/mh-masum6875/food-hygiene-compliance-vision-ai)** | Commercial Kitchen HACCP Compliance & Hygiene Auditing | Custom Hairnet Net, Time-decay Tracking, Open-Vocabulary YOLOE |
-| **[healthcare-patient-monitoring-ergonomics](https://github.com/mh-masum6875/healthcare-patient-monitoring-ergonomics)** | Non-Invasive Clinical In-Bed Care & Workplace Posture | Centroid Displacement Kinetics, BBox Aspect Ratio Inversion |
-| **[smart-city-waste-cleanliness-analytics](https://github.com/mh-masum6875/smart-city-waste-cleanliness-analytics)** | Smart Sanitation, Conveyor Waste Tonnage & Public Cleanliness | Background Subtraction, Volume-to-Mass Scaling, Hand-Face Vectors |
+| **[workplace-safety-vision](https://github.com/mh-masum6875/workplace-safety-vision)** | Industrial HSE, PPE Compliance & Physical Security | ONNX Runtime GPU, YOLOv8/v7, Spatial IoU, SORT |
+| **[traffic-flow-analytics](https://github.com/mh-masum6875/traffic-flow-analytics)** | Multi-Lane Junction Counting & Directional Flow State Machine | YOLOv8/v11, DeepSORT, OpenPyXL, Dynamic Thresholds |
+| **[maritime-subsea-vision](https://github.com/mh-masum6875/maritime-subsea-vision)** | Maritime Surveillance, Carrier OCR & Subsea Ecological Census | PyTorch, YOLOE, EasyOCR, CLAHE, CUDA 12.1 |
+| **[retail-loss-prevention-vision](https://github.com/mh-masum6875/retail-loss-prevention-vision)** | Retail Loss Prevention, Self-Checkout Scanning & Action Recognition | Vision Transformer (ViT), Shopformer, Faster R-CNN, YOLO-Pose |
+| **[food-hygiene-vision](https://github.com/mh-masum6875/food-hygiene-vision)** | Commercial Kitchen HACCP Compliance & Hygiene Auditing | Custom Hairnet Net, Time-decay Tracking, Open-Vocabulary YOLOE |
+| **[patient-monitoring-vision](https://github.com/mh-masum6875/patient-monitoring-vision)** | Non-Invasive Clinical In-Bed Care & Workplace Posture | Centroid Displacement Kinetics, BBox Aspect Ratio Inversion |
+| **[waste-cleanliness-vision](https://github.com/mh-masum6875/waste-cleanliness-vision)** | Smart Sanitation, Conveyor Waste Tonnage & Public Cleanliness | Background Subtraction, Volume-to-Mass Scaling, Hand-Face Vectors |
 
 ---
 
